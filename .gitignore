@@ -1,0 +1,47 @@
+#README.md
+
+### app ###
+build/
+target/
+bin/
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### Gradle ###
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### Eclipse ###
+.classpath
+.project
+.settings/
+
+# Operating System Files
+*.DS_Store
+Thumbs.db
+*.sw?
+.#*
+*#
+*~
+*.sublime-*
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+
